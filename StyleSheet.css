@@ -18,3 +18,13 @@ body{
     75% {background: rgb(233, 150, 94);}
     100% {background: #d28aee;}
 }
+
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
