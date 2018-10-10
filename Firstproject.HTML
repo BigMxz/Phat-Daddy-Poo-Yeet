@@ -1,24 +1,16 @@
 <!DOCTYPE html>
 <head>
         <link href="StyleSheet.css" rel="stylesheet" type="text/css">
+        <script src="JavaScript.js"></script>
 </head>
 <html>
     <body>
         <p>
             dice roles
-            <span id="bob">0</span><br>
+            <span id="out">0</span><br>
             total score of
             <span id="addsup">0</span><br>
-            <button onclick="dostuff()">stuff</button>
-        </p>
-        <script>
-            function diceroll() {
-                basu = Math.floor((1 + (Math.random()* 6)));
-                return basu;
-            }
-            function dostuff(){
-            document.getElementById("bob").innerHTML = diceroll();
-            }
-        </script>
+            <button onclick="output()">Roll</button>
+            </p>
     </body>
 </html>
