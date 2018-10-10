@@ -19,12 +19,12 @@ body{
     100% {background: #d28aee;}
 }
 
-.btn {
+button.Makesureyounameyourbuttonmerryn {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
 
-.btn:hover {
+button.Makesureyounameyourbuttonmerryn:hover {
     background-color: #4CAF50; /* Green */
     color: white;
 }
