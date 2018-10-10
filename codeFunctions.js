@@ -1,6 +1,11 @@
 var pTot = 0
 var cTot = 0
 var rolled = false
+setTimeout(rollAgain, 3000)
+
+function rollAgain() {
+  rolled = false
+}
 
 
 function rollDice() {
@@ -18,10 +23,10 @@ function output() {
     document.getElementById("cOut").innerHTML = cRoll;
     document.getElementById("pTot").innerHTML = pTot;
     rolled = true
+    rollAgain()
 }
 }
 
 
 function reset() {
-  rolled = false
 }
