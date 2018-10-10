@@ -28,10 +28,10 @@ body{
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }    
-/*.output:hover {
-    background-color: #4CAF50;  Green 
+.output:hover {
+    background-color: white;  Green 
     color: transparent; 
-} */
+} 
 
 .reset {
     background-color: white;
