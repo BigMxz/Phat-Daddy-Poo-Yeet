@@ -20,6 +20,7 @@ function output() {
     document.getElementById("pOut").innerHTML = pRoll;
     document.getElementById("cOut").innerHTML = cRoll;
     document.getElementById("pTot").innerHTML = pTot;
+    window.alert(cTot)
     //rolled = true
     //rollAgain();
 }
