@@ -20,9 +20,9 @@ body{
 }
 
 .output {
-    background-color: white;
+    background-color: Transparent;
     color: black;
-    border: 2px solid #4CAF50; /* Green */
+    border: 2px solid white;
     font-size: 20px;
     padding: 14px 40px;
     -webkit-transition-duration: 0.4s; /* Safari */
