@@ -20,7 +20,8 @@ function output() {
     document.getElementById("pOut").innerHTML = pRoll;
     document.getElementById("cOut").innerHTML = cRoll;
     document.getElementById("pTot").innerHTML = pTot;
-    window.alert("Computers total is ", cTot)
+    var sentance = "Computer's total is "
+    window.alert(sentance.concat(cTot.toString()))
     //rolled = true
     //rollAgain();
 }
