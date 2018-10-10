@@ -19,18 +19,30 @@ body{
     100% {background: #d28aee;}
 }
 
-.Makesureyounameyourbuttonmerryn {
+.output {
     background-color: white;
     color: black;
     border: 2px solid #4CAF50; /* Green */
 }
-
-button.Makesureyounameyourbuttonmerryn {
+.output {
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }
+.output:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
 
-button.Makesureyounameyourbuttonmerryn:hover {
+.reset {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+}
+.reset {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.reset:hover {
     background-color: #4CAF50; /* Green */
     color: white;
 }
