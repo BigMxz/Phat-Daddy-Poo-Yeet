@@ -2,7 +2,9 @@ var pTot = 0
 var cTot = 0
 var rolled = false
 
-setTimeout(function rollAgain() {  rolled = false  }, 3000);
+setTimeout(function rollAgain() {
+  rolled = false  
+}, 3000);
 
 function rollDice() {
   return Math.floor(Math.random() * (7 - 1) ) + 1;
