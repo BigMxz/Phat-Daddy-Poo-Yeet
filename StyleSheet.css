@@ -21,7 +21,7 @@ body{
 
 .output {
     background-color: transparent;
-    color: black;
+    color: white;
     border: 2px solid white;
     font-size: 20px;
     padding: 14px 40px;
@@ -29,7 +29,7 @@ body{
     transition-duration: 0.4s;
 }    
 .output:hover {
-    background-color: white;
+    background-color: black;
     color: transparent; 
 } 
 
