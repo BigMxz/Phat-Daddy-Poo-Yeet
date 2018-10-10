@@ -2,7 +2,7 @@ var pTot = 0
 var cTot = 0
 var rolled = false
 
-setTimeout(function rollAgain() {  rolled = false  }, 3000)
+setTimeout(function rollAgain() {  rolled = false  }, 3000);
 
 function rollDice() {
   return Math.floor(Math.random() * (7 - 1) ) + 1;
@@ -19,10 +19,15 @@ function output() {
     document.getElementById("cOut").innerHTML = cRoll;
     document.getElementById("pTot").innerHTML = pTot;
     rolled = true
-    rollAgain()
+    rollAgain();
 }
 }
 
 
 function reset() {
+  pTot = 0
+  cTot = 0
+  document.getElementById("pOut").innerHTML = 0;
+  document.getElementById("cOut").innerHTML = 0;
+  rolled = false
 }
