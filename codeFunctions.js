@@ -20,7 +20,7 @@ function output() {
     document.getElementById("pOut").innerHTML = pRoll;
     document.getElementById("cOut").innerHTML = cRoll;
     document.getElementById("pTot").innerHTML = pTot;
-    window.alert(cTot)
+    window.alert("Computers total is ${cTot}")
     //rolled = true
     //rollAgain();
 }
