@@ -20,7 +20,7 @@ body{
 }
 
 .output {
-    background-color: Transparent;
+    background-color: transparent;
     color: black;
     border: 2px solid white;
     font-size: 20px;
@@ -28,10 +28,10 @@ body{
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
 }    
-.output:hover {
-    background-color: #4CAF50; /* Green */
-    color: white;
-}
+/*.output:hover {
+    background-color: #4CAF50;  Green 
+    color: transparent; 
+} */
 
 .reset {
     background-color: white;
