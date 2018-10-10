@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+        <a class="embedly-button" href="http://embed.ly/code">Embed</a>
+        <script>!function(a){var b="embedly-platform",c="script";if(!a.getElementById(b)){var d=a.createElement(c);d.id=b,d.src=("https:"===document.location.protocol?"https":"http")+"://cdn.embedly.com/widgets/platform.js";var e=document.getElementsByTagName(c)[0];e.parentNode.insertBefore(d,e)}}(document);</script>
+</head>
+<html>
+    <body>
+
+    </body>
+    <head> 
+
+        <style>
+            body{
+                -webkit-animation: colorchange 60s infinite;
+                animation: colorchange 60s infinite;
+            }
+
+            @-webkit-keyframes colorchange {
+                0% {background:#33FFF3;}
+                25% {background: #78281f;}
+                50% {background: #117A65;}
+                75% {background: #DC7633;}
+                100% {background: #9b59b6;}
+            }
+
+            @keyframes colorchange {
+                0% {background:#33FFF3;}
+                25% {background: #78281f;}
+                50% {background: #117A65;}
+                75% {background: #DC7633;}
+                100% {background: #9b59b6;}
+            }
+        </style>
+    </head>
+    <body>
+        <p>
+            dice roles
+            <span id="bob">0</span><br>
+            total score of
+            <span id="addsup">0</span><br>
+            <button onclick="dostuff()">stuff</button>
+        </p>
+        <script>
+            function diceroll() {
+                basu = Math.floor((1 + (Math.random()* 6)));
+                return basu;
+            }
+            function dostuff(){
+            document.getElementById("bob").innerHTML = diceroll();
+            }
+        </script>
+    </body>
+</html>
