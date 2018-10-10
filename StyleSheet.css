@@ -29,8 +29,8 @@ body{
     transition-duration: 0.4s;
 }    
 .output:hover {
-    background-color: black;
-    color: transparent; 
+    background-color: white;
+    color: black; 
 } 
 
 .reset {
