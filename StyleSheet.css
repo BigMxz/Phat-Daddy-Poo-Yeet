@@ -4,17 +4,17 @@ body{
 }
 
 @-webkit-keyframes colorchange {
-    0% {background:#33FFF3;}
-    25% {background: #78281f;}
-    50% {background: #117A65;}
-    75% {background: #DC7633;}
-    100% {background: #9b59b6;}
+    0% {background:rgb(137, 255, 247);}
+    25% {background: #ff7c6d;}
+    50% {background: rgb(74, 196, 171);}
+    75% {background: rgb(233, 150, 94);}
+    100% {background: #d28aee;}
 }
 
 @keyframes colorchange {
-    0% {background:#33FFF3;}
-    25% {background: #78281f;}
-    50% {background: #117A65;}
-    75% {background: #DC7633;}
-    100% {background: #9b59b6;}
+    0% {background:rgb(137, 255, 247);}
+    25% {background: #ff7c6d;}
+    50% {background: rgb(74, 196, 171);}
+    75% {background: rgb(233, 150, 94);}
+    100% {background: #d28aee;}
 }
