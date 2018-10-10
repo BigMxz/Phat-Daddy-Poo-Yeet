@@ -12,6 +12,3 @@ function output() {
     rolled = true
 }
 }
-function reset() {
-  rolled = false
-}
