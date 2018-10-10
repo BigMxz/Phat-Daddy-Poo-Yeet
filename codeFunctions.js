@@ -1,4 +1,5 @@
-var tot = 0
+var pTot = 0
+var cTot = 0
 var rolled = false
 
 
@@ -9,10 +10,13 @@ function rollDice() {
 
 function output() {
   if (rolled == false) {
-    var x = rollDice();
-    tot = tot + x
-    document.getElementById("out").innerHTML = x;
-    document.getElementById("addsup").innerHTML = tot;
+    var cRoll = rollDice();
+    var pRoll = rollDice();
+    pTot = pTot + pRoll
+    cTot = cTot + cRoll
+    document.getElementById("pOut").innerHTML = pRoll;
+    document.getElementById("cOut").innerHTML = cRoll;
+    document.getElementById("pTot").innerHTML = pTot;
     rolled = true
 }
 }
