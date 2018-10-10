@@ -29,5 +29,6 @@ function reset() {
   cTot = 0
   document.getElementById("pOut").innerHTML = 0;
   document.getElementById("cOut").innerHTML = 0;
+  document.getElementById("pTot").innerHTML = 0;
   rolled = false
 }
