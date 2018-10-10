@@ -23,6 +23,7 @@ body{
     background-color: white;
     color: black;
     border: 2px solid #4CAF50; /* Green */
+    font-size: 10px;
 }
 .output {
     -webkit-transition-duration: 0.4s; /* Safari */
@@ -37,6 +38,7 @@ body{
     background-color: white;
     color: black;
     border: 2px solid #4CAF50; /* Green */
+    font-size: 10px;
 }
 .reset {
     -webkit-transition-duration: 0.4s; /* Safari */
